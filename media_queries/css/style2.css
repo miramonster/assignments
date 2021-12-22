@@ -1,0 +1,18 @@
+#container{
+    flex-direction: column;
+    
+}
+#banner {
+    height: 150px
+    background-color rgb(29, 29, 228);
+}
+
+#title {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#button {
+    flex-direction: row;
+    justify-content: center;
+}

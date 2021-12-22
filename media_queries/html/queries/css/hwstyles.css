@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100%;
+}
+#grad {
+  background-image: linear-gradient(to top, rgb(110, 5, 136), aliceblue);
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#menu div {
+  padding: 20px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: rgb(110, 5, 136);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+@media (min-width: 704px) {
+  #menu {
+    flex-direction: row;
+    text-align: center;
+  }
+  #menu div {
+    text-align: center;
+  }
+}
+
+#promo {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+#gallery {
+  display: flex;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#gallery img {
+  width: 200px;
+}
+
+.galleryItem {
+  text-align: center;
+  margin: 16px;
+}

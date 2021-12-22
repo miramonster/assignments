@@ -1,0 +1,68 @@
+ body{
+     width: 100%;
+ }
+ .brick {
+        align-content: center;
+        width: 8%;
+        height: 50px;
+        left: 100px;
+        right: 5px;
+        background-color:rgb(177, 36, 36);
+        border-radius: 2px;
+        margin: 2px;
+
+}
+.container{
+    
+        width: 100%;
+        background-color: black;
+        margin-left: 60px;
+        margin-right: 60px;
+        border-top: 30px solid grey;
+        border-left: 30px solid grey;
+        border-right: 30px solid grey;
+       
+}
+.row{
+     display: flex;
+}
+.yellowBrick {
+        align-content: center;
+        width: 8%;
+        height: 50px;
+        left: 100px;
+        right: 5px;
+        background-color:rgb(194, 194, 33);
+        border-radius: 2px;
+        margin: 2px;
+}
+.blackBrick {
+        align-content: center;
+        width: 8%;
+        height: 50px;
+        left: 100px;
+        right: 5px;
+        background-color:black;
+        border-radius: 2px;
+        margin: 2px;
+}
+.greenBrick {
+        align-content: center;
+        width: 8%;
+        height: 50px;
+        left: 100px;
+        right: 5px;
+        background-color:rgb(32, 114, 32);
+        border-radius: 2px;
+        margin: 2px;
+}
+.blueBrick {
+        align-content: center;
+        width: 8%;
+        height: 50px;
+        left: 100px;
+        right: 5px;
+        background-color:rgb(29, 50, 109);
+        border-radius: 2px;
+        margin: 2px;
+    }

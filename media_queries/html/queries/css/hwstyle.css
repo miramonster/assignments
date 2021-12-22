@@ -1,0 +1,51 @@
+ 
+
+body {
+    background-color:aliceblue;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* default flex direction is row */
+}
+
+#menu div {
+    padding: 10px; 
+    margin: 10px; 
+    background-color: blue;
+    color: white; 
+}
+
+@media (min-width: 1281px) {
+  
+    body {
+        background-color: orange;
+    }
+
+    #menu {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+#promo {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.links {
+    display: flex; 
+}
+
+#gallery {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 200px; 
+}
